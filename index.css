@@ -1,0 +1,101 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.right{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #4f1ff7;
+    color: white;
+}
+.logo{
+    width: 110px;
+    height: 60px;
+    border-radius: 80px;
+}
+
+
+.center{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.barTrick{
+    height: 5%;
+    width: 50%;
+    background-color: #4f1ff7;
+}
+.photo{
+    height: 90%;
+    background-image: url(assets/john.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.line{
+    width: 80px;
+    height:5px;
+    background-color: #4f1ff7;
+    margin-top: 41%;
+}
+
+.left{
+    width: 40%;
+    padding: 30px;
+    padding-left: 20px;
+    
+ }
+.menu{
+    float: right;
+    font-size: 50px;
+}
+.menu i:hover{
+    opacity: 0.2;
+}
+
+.rightContent{
+    margin-top: 23%;
+    width: 70%;
+}
+
+.line2{
+    width: 5%;
+    width: 30px;
+    height: 5px;
+    background-color: #4f1ff7;
+    margin-top: 16.5%;
+}
+
+.btn1{
+    background-color: #4f1ff7;
+    height: 30px;
+    background-size: cover;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+}
+.btn2{
+    color: black;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.btn2:hover{
+    opacity: 0.3;
+}
